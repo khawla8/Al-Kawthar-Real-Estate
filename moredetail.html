@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+<link href="moredetail.css" rel="stylesheet">
+<title>الكوثر للعقارات</title>
+</head>
+    <body>
+
+     <header>
+         <nav class="navegation">
+           <a href="home.html"  >  الرئيسية </a>
+           <a href="ofiice.html" >  المكتب </a>
+           <a href="conect.html" >  التواصل </a>
+         </nav>
+        <a href="home.html" class="logo"> الكوثر للعقارات </a>
+     </header>    
+        
+     <section class="main" id="conect">
+         <h2 class="title">  التفاصيل عن العقار</h2>
+         <div class="content">
+             <div class="slideshow-container">
+               <div class="mySlides fade">
+                  <div class="numbertext">1 / 3</div>
+                   <img src="image/4/d44.jpg"/>
+                  </div>
+
+                  <div class="mySlides fade">
+                  <div class="numbertext">2 / 3</div>
+                    <img src="image/4/d42.jpg"/>
+                  </div>
+
+                  <div class="mySlides fade">
+                  <div class="numbertext">3 / 3</div>
+                   <img src="image/4/d43.jpg"/>
+                  </div>
+
+                  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+                  </div>
+                 <!--
+               </div>
+                  <div style="text-align:center">
+                  <span class="dot" onclick="currentSlide(1)"></span> 
+                  <span class="dot" onclick="currentSlide(2)"></span> 
+                  <span class="dot" onclick="currentSlide(3)"></span> 
+                  </div>
+                 -->
+             <div class="card">
+               <div class="icon">  
+                 <i class="fas fa-calendar-week"></i>
+               </div>
+               <div class="info">
+                   <h2> الشقة  للإجار </h2>
+                   <h2> مدنية نابلس - جبل شمالي - شارع عصيرة -مقابل محل فتيان - طابق الرابع </h2>
+                   <h2> شقة لها إطالة غربية مع بردة  </h2>
+                   <h4>  يوجد 3 غرفة 400م وصالة 500م ومطبخ 500م يطلع على شرق ويوجد  حمام </h4>
+                   <h4> مفروشة فرش جيد جداا وغير مستعمل غير مدة شهر </h4>
+                   <h4>تم دفع عربون ميسر العر في حال الإستعجال للشراء  </h4>
+                   <h4>   يوجد مصعد وكراج للسيارات  </h4>
+                   <h4>   يوجد خدمة متكاملة للعمارة من أمان بوجود حارس  </h4>
+                 <br>
+               </div>
+              </div>   
+         </div> 
+   </section>
+        
+        
+   <script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+}
+</script>        
+    </body>
+</html>
