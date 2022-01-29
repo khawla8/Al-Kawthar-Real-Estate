@@ -147,3 +147,22 @@ section{
     margin-top: 100px;
 }
 
+.footer{
+    background-color: chocolate;
+    color: white;
+    padding: 0.5em;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-title{
+    font-size: 1.8em;
+    font-weight: 600;
+    padding: 0 35px 0 0;
+}
+
+.footer .footer-conect{
+    font-size: 1.5em;
+    padding: 0 12px 0 35px;
+
+}
