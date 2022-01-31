@@ -3,3 +3,13 @@ Al Kawthar Real Estate
 https://khawla8.github.io/Al-Kawthar-Real-Estate/home.html
 
 A website that helps the broker organize his data for him
+
+*uppdate on gitub*
+cd Desktop
+cd Al Kawthar Real Estate
+git status
+git add .
+git status
+git commit -m "first commit"
+git status
+git push -u origin master

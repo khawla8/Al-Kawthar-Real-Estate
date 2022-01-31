@@ -100,8 +100,8 @@ section{
     background-color: white;
     border: 3px solid chocolate;
     box-shadow: 0 5px 25px rgba(1 1 1 /15%);
-    min-height: 20em;
-    width: 15em;
+    min-height: 23em;
+    width: 23em;
     overflow: hidden;
     border-radius: 15px;
     margin: 20px;
@@ -119,8 +119,8 @@ section{
 
 
 .pro-image img{
-    width:  13.9em;
-    height: 17em;
+    width:  24em;
+    height: 19em;
     object-fit: cover;
 }
 
@@ -161,3 +161,58 @@ section{
     padding: 0 12px 0 35px;
 
 }
+
+
+@media (max-width:1023px){
+    header{
+        padding: 12px 20px;
+    }
+    
+    .logo{
+        font-size: 2em;
+    }
+    
+    .navegation a{
+        font-size: 1.4em;
+        padding-left: 10px;
+    }
+    
+    .navegation .active {
+    padding-right: 10px;
+    
+    }
+    .title{
+        font-size: 1.8em;
+    }
+    
+    section{
+        padding: 80px 20px;
+    }
+    
+    .ceontent{
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media (max-width:830px){
+    body{
+        font-size: 12px;
+    }
+    
+    .card{
+        width: 23em;
+    }
+}
+
+@media (max-width=300px){
+    body{
+        font-size: 10px;
+    }
+}
+    
+    
+    
+    
+    
+    

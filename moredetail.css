@@ -108,6 +108,8 @@ section{
     font-size: 20em;
     margin-top: 100px;
 }
+
+
 img {
     width:  35.25em;
     height: 28.25em;
@@ -183,6 +185,56 @@ img {
 
 }
 
+@media (max-width:1023px){
+    header{
+        padding: 12px 20px;
+    }
+    
+    .logo{
+        font-size: 2em;
+    }
+    
+    .navegation a{
+        font-size: 1.4em;
+        padding-left: 10px;
+    }
+    
+    .navegation .active {
+    padding-right: 10px;
+    
+    }
+    
+    .title{
+        font-size: 1.8em;
+    }
+    
+    section{
+        padding: 80px 20px;
+    }
+    
+    .ceontent{
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    img {
+    width:  29.25em;
+    height: 28.25em;
+    }
+}
+
+@media (max-width:641px){
+    body{
+        font-size: 12px;
+    }
+}
+
+@media (max-width=300px){
+    body{
+        font-size: 10px;
+    }
+}
+    
 /* The dots/bullets/indicators 
 .dot {
   cursor: pointer;
